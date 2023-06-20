@@ -44,5 +44,19 @@ namespace StackAndQueue
             }
         }
 
+        public void Dequeue()
+        {
+            if (top == null)
+            {
+                Console.WriteLine("Queue is empty,Dequeue is not possible.");
+                return;
+            }
+            while (top != null)
+            {
+                Console.WriteLine($"Value dequeue is {top.data}");
+                top = top.next;
+            }
+        }
+
     }
 }
