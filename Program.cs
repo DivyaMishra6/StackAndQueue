@@ -9,14 +9,10 @@ namespace StackAndQueue
             Console.WriteLine("Welcome to Stack And Queue Program!");
             Console.WriteLine("#####################");
             Code obj = new Code();
-            obj.push(70);
-            obj.push(30);
-            obj.push(56);
+            obj.Enqueue(70);
+            obj.Enqueue(30);
+            obj.Enqueue(56);
 
-            obj.Peek();
-            Console.WriteLine("After pop operation:");
-            obj.Pop();
-            obj.IsEmpty();
    
             obj.Display();
 
