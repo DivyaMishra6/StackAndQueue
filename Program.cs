@@ -12,6 +12,12 @@ namespace StackAndQueue
             obj.push(70);
             obj.push(30);
             obj.push(56);
+
+            obj.Peek();
+            Console.WriteLine("After pop operation:");
+            obj.Pop();
+            obj.IsEmpty();
+   
             obj.Display();
 
         }
